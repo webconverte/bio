@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@300;400;700;800;900&display=swap');
 
 :root {
   --azul-noite: #041847;
   --secondary-fixed: #c0f366;
   --background: #111A33; /* Dark background */
   
-  --font-headline: 'Montserrat', sans-serif;
+  --font-headline: 'Futura', 'Montserrat', sans-serif;
   --font-body: 'Inter', sans-serif;
   
   --radius-card: 20px;
@@ -57,8 +57,8 @@ body::before {
 }
 
 .logo {
-  font-family: 'Futura', var(--font-headline), sans-serif;
-  font-size: 28px;
+  font-family: var(--font-headline);
+  font-size: 24px;
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
@@ -68,7 +68,6 @@ body::before {
 
 .logo span {
   color: var(--secondary-fixed);
-  font-weight: 700;
 }
 
 .headline {
